@@ -1548,10 +1548,10 @@ website:    http://www.themepunch.com
 		-webkit-transition:all 0.3s;
 }
 .hermes.tparrows.tp-leftarrow:before {
-	content: "\e824";
+	content: "<";
 }
 .hermes.tparrows.tp-rightarrow:before {
-	content: "\e825";
+	content: ">";
 }
 .hermes.tparrows.tp-leftarrow:hover:before {
 		transform:translateX(-20px);
@@ -2362,7 +2362,6 @@ website:    http://www.themepunch.com
 	-webkit-transform:scale(1);
 	opacity:1;
 }
-
 
 /* BULLETS */
 .zeus .tp-bullet {

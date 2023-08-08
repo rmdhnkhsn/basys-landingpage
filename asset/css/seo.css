@@ -5,7 +5,7 @@
 /* Root Settings
 -----------------------------------------------------------------*/
 :root {
-	--themecolor:  #fE9603;
+	--themecolor:  #004DA5;
 	--basefontsize: 16px;
 	--fontfamily: 'Poppins', sans-serif;
 	--headerboxshadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
@@ -214,8 +214,8 @@ input.switch-toggle-round + label::after { border-radius: 4px }
 }
 
 .badge.badge-default {
-	border: 1px solid var(--themecolor, #fE9603);
-	color: var(--themecolor, #fE9603);
+	border: 1px solid var(--themecolor, #004DA5);
+	color: var(--themecolor, #004DA5);
 }
 
 /* Testimonials Carousel
