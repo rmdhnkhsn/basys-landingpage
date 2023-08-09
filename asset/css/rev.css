@@ -106,7 +106,50 @@ div.menu-link { cursor: default; }
 
 .play-icon:hover i { transform: scale(1.1); }
 
-#oc-clients .oc-item img { height: 32px; }
+.image-carousel .oc-item.bank-kalsel {
+	width: 140px;
+	margin-top: 8px;
+	filter: grayscale(100%) contrast(50%);
+	-webkit-filter: grayscale(100%) contrast(50%);
+	transition: .3s;
+}
+.image-carousel .oc-item.bank-kalteng {
+	width: 140px;
+	margin-top: 14px;
+	filter: grayscale(100%) contrast(50%);
+	-webkit-filter: grayscale(100%) contrast(50%);
+	transition: .3s;
+}
+.image-carousel .oc-item.bank-ntb {
+	width: 140px;
+	margin-top: 8px;
+	filter: grayscale(100%) contrast(50%);
+	-webkit-filter: grayscale(100%) contrast(50%);
+	transition: .3s;
+}
+.image-carousel .oc-item.bank-ntt {
+	width: 100px;
+	filter: grayscale(100%) contrast(50%);
+	-webkit-filter: grayscale(100%) contrast(50%);
+	transition: .3s;
+}
+.image-carousel .oc-item.bank-sumsel {
+	width: 140px;
+	margin-top: 12px;
+	filter: grayscale(100%) contrast(50%);
+	-webkit-filter: grayscale(100%) contrast(50%);
+	transition: .3s;
+}
+
+.image-carousel:hover .oc-item.bank-kalsel,
+.image-carousel:hover .oc-item.bank-kalteng,
+.image-carousel:hover .oc-item.bank-ntb,
+.image-carousel:hover .oc-item.bank-ntt,
+.image-carousel:hover .oc-item.bank-sumsel {
+	filter: none;
+	-webkit-filter: none;
+	transition: .3s;
+}
 
 /* Pricing Switcher
 -----------------------------------------------------------------*/

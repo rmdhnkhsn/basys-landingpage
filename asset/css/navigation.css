@@ -1548,10 +1548,16 @@ website:    http://www.themepunch.com
 		-webkit-transition:all 0.3s;
 }
 .hermes.tparrows.tp-leftarrow:before {
-	content: "<";
+	content: "\25E3";
+	transform: rotate(45deg);
+	opacity: .4;
+	margin-left: 6px;
 }
 .hermes.tparrows.tp-rightarrow:before {
-	content: ">";
+	content: "\25E2";
+	transform: rotate(-45deg);
+	opacity: .4;
+	margin-right: 6px;
 }
 .hermes.tparrows.tp-leftarrow:hover:before {
 		transform:translateX(-20px);
