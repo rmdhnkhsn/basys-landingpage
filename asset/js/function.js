@@ -89,7 +89,7 @@ window.scwEvents = window.scwEvents || {};
 			SEMICOLON.initialize.goToTop();
 			SEMICOLON.initialize.lazyLoad();
 			// SEMICOLON.initialize.lightbox();
-			SEMICOLON.initialize.resizeVideos();
+			// SEMICOLON.initialize.resizeVideos();
 			SEMICOLON.initialize.dataResponsiveClasses();
 			SEMICOLON.initialize.dataResponsiveHeights();
 			SEMICOLON.initialize.stickFooterOnSmall();
@@ -370,19 +370,19 @@ window.scwEvents = window.scwEvents || {};
 		// 	SEMICOLON.initialize.functions( settings );
 		// },
 
-		resizeVideos: function(){
-			let settings = {
-				default: 'iframe[src*="youtube"],iframe[src*="vimeo"],iframe[src*="dailymotion"],iframe[src*="maps.google.com"],iframe[src*="google.com/maps"]',
-				file: 'plugins.fitvids.js',
-				error: 'plugins.fitvids.js: Plugin could not be loaded',
-				execfn: 'SEMICOLON_resizeVideosInit',
-				pluginfn: () => $().fitVids,
-				trigger: 'pluginfitVidsReady',
-				class: 'has-plugin-fitvids'
-			};
+		// resizeVideos: function(){
+		// 	let settings = {
+		// 		default: 'iframe[src*="youtube"],iframe[src*="vimeo"],iframe[src*="dailymotion"],iframe[src*="maps.google.com"],iframe[src*="google.com/maps"]',
+		// 		file: 'plugins.fitvids.js',
+		// 		error: 'plugins.fitvids.js: Plugin could not be loaded',
+		// 		execfn: 'SEMICOLON_resizeVideosInit',
+		// 		pluginfn: () => $().fitVids,
+		// 		trigger: 'pluginfitVidsReady',
+		// 		class: 'has-plugin-fitvids'
+		// 	};
 
-			SEMICOLON.initialize.functions( settings );
-		},
+		// 	SEMICOLON.initialize.functions( settings );
+		// },
 
 		pageTransition: function(){
 			let settings = {

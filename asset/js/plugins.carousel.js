@@ -104,7 +104,7 @@ window.SEMICOLON_carouselInit = function( $carouselEl ){
 				SEMICOLON.widget.loadFlexSlider({ 'parent': element });
 				SEMICOLON.widget.counter({ 'parent': element });
 				SEMICOLON.widget.progress({ 'parent': element });
-				SEMICOLON.initialize.resizeVideos();
+				// SEMICOLON.initialize.resizeVideos();
 				if( element.find('.owl-dot').length > 0 ) {
 					element.addClass('with-carousel-dots');
 				}
